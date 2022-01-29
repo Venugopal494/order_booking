@@ -1,0 +1,49 @@
+<html>
+<style>
+table, th, td {
+  border:1px solid black;
+}
+</style>
+<body>
+
+
+<button type="button" onclick=>Open Market</button>
+ <button type="button" onclick=>Close Market</button>
+ 
+<br>
+<label for="Select Stock">Select Slot</label>
+
+<select name="Select stock" id="Select Slot">
+  <option value="dbs">dbs</option>
+  <option value="Rel">Rel</option>
+  <option value="ts">Ts</option>
+</select>
+</br>
+  <label for="From Date">From Date</label>
+  <input type="date" id="From Date" name="From Date">
+  <label for="To Date">To Date</label>
+  <input type="date" id="To Date" name="To Date">
+  <button type="button" onclick=>Show Orders</button>
+  <table style="width:100%">
+  <tr>
+    <th>S.no</th>
+    <th>Stocks Name</th>
+    <th>Order qty</th>
+	<th>Order Type</th>
+	<th>Price</th>
+	<th>Order Status</th>
+	<th>Order date</th>
+  </tr>
+  <tr>
+   
+  </tr>
+ 
+</table>
+<label for="Execution Qty">Execution Qty</label>
+<input type="text" id="Execution Qty" name="Execution Qty">
+<label for="Execution Price">Execution Price</label>
+<input type="text" id="Execution Price" name="Execution Price">
+<button type="button" onclick=>Execute Orders</button>
+</form>
+</body>
+</html>
