@@ -1,0 +1,160 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+body
+{
+    font-family: 'Josefin Sans', sans-serif !important;
+}
+.header
+{
+    background: #f5f6fc;
+    margin-bottom: 80px;
+}
+.navbar
+{
+    padding: 0 35px !important;
+}
+.navbar-brand
+{
+    left: 50%;
+    top: 25px;
+    transform: translateX(-50%);
+    position: absolute;
+}
+.navbar-brand img
+{
+    width: 500;
+    height: 150;
+}
+.searchBox li
+{
+    display: inline-flex;
+    margin-top: 30px !important;
+}
+.searchBox .searchBox-icon
+{
+    font-size: 18px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.input-group input
+{
+    box-shadow: none !important;
+    border: 1px solid #000 !important;
+    background: transparent !important;
+    border-right: transparent !important;
+    border-radius: 0 !important;
+}
+.input-group span
+{
+    border: 1px solid #000 !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+    border-left: transparent !important;
+    cursor: pointer;
+}
+.navbar-toggler
+{
+    border:none!important;
+    outline: none!important;
+    padding: 0 !important;
+    margin-top: 30px;
+}
+.navbar-toggler .fa
+{
+    font-size: 30px; 
+    cursor: pointer;
+}
+.banner
+{
+    position: relative;
+}
+.banner-img
+{
+    margin: 80px 115px;
+    width: 60%;
+}
+.banner-img img
+{
+    width: 100%;
+    margin-bottom: -80px;
+}
+.banner-title
+{
+    position: absolute;
+    left: 50%;
+    top: 20%;
+}
+.banner-title h1
+{
+    font-size: 55px;
+    background: rgba(0, 0, 0, 0.74);;
+    color: #fff;
+    line-height: 70px;
+    padding: 10px 10px 0 10px;
+}
+
+.row
+{
+    margin: initial !important;
+}
+
+
+/*----------Category--------------*/
+
+.Category
+{
+    padding: 100px 0;
+}
+.Category-box
+{
+    margin: 80px 0;
+}
+.Category-img
+{
+    position: relative;
+    margin-bottom: 15px;
+}
+.Category-img img
+{
+    width: 100%;
+}
+.btn-buy
+{
+    width: 150px;
+    padding: 10px 0;
+    outline: none !important;
+    border: 0;
+    border-radius: 2px;
+    position: absolute;
+    background: #fff !important;
+    left: 50%;
+    bottom: 0;
+    transform: translate(-50%,0);
+    transition: .6s;
+    z-index: 1;
+    opacity: 0;
+}
+.Category-img:hover .btn-buy
+{
+    transform: translate(-50%,50%);
+    bottom: 50%;
+    opacity: 1;
+}
+.overlay
+{
+    height: 0;
+    width: 100%;
+    background: #333;
+    position: absolute;
+    top: 0;
+    opacity: 0;
+    transition: .5s;
+}
+.Category-img:hover .overlay
+{
+    opacity: .5;
+    height: 100%;
+}
